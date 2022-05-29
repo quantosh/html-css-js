@@ -28,6 +28,9 @@ I will update this project, since I made some changes.
 - [ ]  💽 Music Player | Glassmorphism Style
 
 #### Development summary
+
+<div style="text-align: center;">
+  
 | APP |![HTML5](https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=E34F26&logo=HTML5&logoColor=FFFFFF&label=) | ![CSS3](https://img.shields.io/static/v1?style=for-the-badge&message=CSS&color=1572B6&logo=CSS3&logoColor=FFFFFF&label=)  | ![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JS&color=222222&logo=JavaScript&logoColor=F7DF1E&label=) | 
 | ------- | :-:| :-: | :-: | 
 | Weather   | ✔️| ✔️ | ❌ | 
@@ -38,3 +41,4 @@ I will update this project, since I made some changes.
 | Metronome  | ❌ | ❌ | ❌ |  
 | Music Pla.  | ❌ | ❌ | ❌ |    
 
+</div>
