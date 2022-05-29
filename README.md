@@ -1,10 +1,9 @@
-![stack Overflow](https://github.com/quantosh/html-css-js/blob/main/appShowCase.png)
+# HTML-CSS-JS | Simple apps
 
-# HTML CSS JS
-The technologies used in this project are HTML CSS and JavaScript
+![appShowCase](https://github.com/quantosh/html-css-js/blob/main/appShowCase.png)
 
-## 📌 About
-I liked the idea of making (visually for now) some simple applications, I decided to upload it to github to be able to show it to the community.
+### 📌 About
+The technologies used in this project are HTML CSS and JavaScript, I liked the idea of making (visually for now) some simple applications, I decided to upload it to github to be able to show it to the community.
 
 #### 👩‍💻 Things I'm practicing in this project
 ![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=)
@@ -41,3 +40,4 @@ I will update this project, since I made some changes.
 | Voice Rec.  | ✔️ | ✔️ | ❌ |  
 | Metronome  | ❌ | ❌ | ❌ |  
 | Music Pla.  | ❌ | ❌ | ❌ |    
+
