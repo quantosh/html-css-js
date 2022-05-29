@@ -1,0 +1,188 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --hue-color: 14;
+
+  --first-color: hsl(var(--hue-color), 53%, 49%);
+  --title-color: hsl(var(--hue-color), 53%, 15%);
+  --text-color: hsl(var(--hue-color), 12%, 35%);
+  --text-color-light: hsl(var(--hue-color), 12%, 65%);
+  --white-color: #fff;
+  --body-color: hsl(var(--hue-color), 24%, 94%);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+  --biggest-font-size: 4rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --tiny-font-size: 0.625rem;
+
+  /*========== Font weight ==========*/
+  --font-thin: 100;
+  --font-light: 200;
+  --font-medium: 400;
+  --font-bold: 700;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: 0.25rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-normal: 1;
+  --z-tooltip: 10;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.theme__selector {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: var(--body-font);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  background-color: #ecf0f3;
+}
+
+.main__container {
+  padding: 0px 0px 0px 0px;
+  width: 390px;
+  border-radius: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  border-radius: 15px;
+  background-image: linear-gradient(90deg, #e6ebee, #f0f0f0);
+}
+
+.task__container {
+  width: 100px;
+  height: 100px;
+  background-color: #555;
+}
+
+button {
+  color: #61677c;
+  font-weight: bold;
+  box-shadow: -5px -5px 7px #fff, 5px 5px 20px #babecc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  border: 0px;
+  background-image: linear-gradient(90deg, #e6ebee, #f0f0f0);
+}
+
+button.unit {
+  margin: 15px;
+  border-radius: 50%;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19.2px;
+}
+
+.top__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bot__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timer {
+  display: flex;
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-medium);
+  color: #555551;
+  justify-content: center;
+}
+
+.screen__container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 12px 0px 12px;
+}
+
+.lcd__border {
+  width: 100%;
+  padding: 12px;
+  z-index: 1;
+  background-color: #222816;
+  border-radius: 3px;
+  box-shadow: 0 5px 20px 0.05px #130f0a inset, 5px 0 10px -4px #130f0a inset,
+    -0.5px 0 3px 1px #130f0a inset, 0 0 0 2px rgba(0, 0, 0, 1),
+    0 65px 50px -10px rgba(0, 0, 0, -0.05);
+}
+
+.lcd {
+  z-index: 2;
+  background-color: #99a883;
+  border-radius: 3px;
+  box-shadow: 0 5px 20px 0.05px #130f0a inset, 5px 0 10px -4px #130f0a inset,
+    -0.5px 0 3px 1px #130f0a inset, 0 0 0 2px rgba(0, 0, 0, 1),
+    0 65px 50px -10px rgba(0, 0, 0, -0.05);
+}
+
+.bot__bar2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.analog__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 15px;
+}
+
+.led {
+  margin: 3px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(170, 255, 0);
+  border-radius: 50%;
+  box-shadow: rgb(151, 151, 151) 0 -1px 7px 1px,
+    inset rgb(105, 154, 7) 0 -1px 9px, #7d0 0 2px 12px;
+}
+
+.led__panel {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel__element {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}

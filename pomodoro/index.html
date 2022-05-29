@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro</title>
+</head>
+
+<body onload="startTime()">
+            <div class="main__container">
+                <!--==================== TOP BAR ====================-->
+                <div class="top__bar">
+                    <button class="unit" type="button">
+                        <i class="icon fa fa-angle-left"></i>
+                    </button>
+                    <p>Simple Pomodoro</p>
+                    <button class="unit" type="button">
+                        <i class="icon fa fa-cog"></i>
+                    </button>
+                </div>
+                <!--==================== LCD Screen ====================-->
+                <div class="screen__container">
+                    <div class="lcd__border">
+                        <div class="lcd">
+                            <div class="timer" id="timer">
+                                00:00:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== Bot bar ====================-->
+                <div class="bot__bar">
+                    <button class="unit" type="button">
+                        <i class="icon fa fa-flag"></i>
+                    </button>
+                    <button class="unit" type="button">
+                        <i class="icon fa fa-play"></i>
+                    </button>
+                    <button class="unit" type="button">
+                        <i class="icon fa fa-check"></i>
+                    </button>
+                </div>
+            </div>
+</body>
+</html>

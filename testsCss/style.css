@@ -1,0 +1,52 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.ball {
+  background: radial-gradient(
+    at 25% 25%,
+    darken(#fff, 5) 0%,
+    darken(#fff, 15) 100%
+  );
+  position: absolute;
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  box-shadow: inset -5px -10px 40px rgba(0, 0, 0, 0.05),
+    inset 0px 0px 10px rgba(0, 0, 0, 0.3), inset 0px 0px 5px rgba(0, 0, 0, 0.5),
+    inset 0px 0px 3px 1px rgba(0, 0, 0, 0.51), 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.label {
+  z-index: 9;
+  position: absolute;
+  left: 75px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  width: 200px;
+  font-size: 32px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  top: 0;
+  color: #fff;
+  text-shadow: 0 -1px 2px #fff;
+  transform: translateY(-2px) translateZ(-15px);
+  &:before {
+    content: attr(data-text);
+    position: absolute;
+    color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+    top: 50%;
+    transform: translateY(calc(-50% + 2px));
+    left: 0;
+    filter: blur(2px);
+  }
+  &:nth-of-type(2) {
+    top: 50%;
+  }
+}
