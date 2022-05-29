@@ -1,5 +1,4 @@
-![Screenshot]([screenshot.png](http://url/to/img.png](https://github.com/quantosh/html-css-js/blob/main/appShowCase.jpg)))
-![alt tag]([http://url/to/img.png](http://url/to/img.png](https://github.com/quantosh/html-css-js/blob/main/appShowCase.jpg))
+![alt tag]([[http://url/to/img.png]([https://github.com/quantosh/html-css-js/blob/main/appShowCase.jpg](https://github.com/quantosh/html-css-js/blob/main/appShowCase.jpg))])
 
 # HTML CSS JS
 The technologies used in this project are HTML CSS and JavaScript
