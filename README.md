@@ -1,5 +1,3 @@
-# HTML-CSS-JS | Simple apps
-
 ![appShowCase](https://github.com/quantosh/html-css-js/blob/main/appShowCase.png)
 
 ### 📌 About
