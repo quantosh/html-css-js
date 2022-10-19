@@ -1,5 +1,3 @@
-![appShowCase](https://github.com/quantosh/html-css-js/blob/main/appShowCase.png)
-
 ### 📌 About
 The technologies used in this project are HTML CSS and JavaScript, I liked the idea of making (visually for now) some simple applications, I decided to upload it to github to be able to show it to the community.
 
