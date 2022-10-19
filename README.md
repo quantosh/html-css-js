@@ -17,8 +17,8 @@ I will update this project, since I made some changes.
 
 #### 💡 Utility Apps
 - [x]  ⛅ Weather | Flat Desing & Glassmorphism Style
-- [ ]  🕑 Clock | Neumorphism style
-- [ ]  👤 Login | Neumorphism style
+- [ ]  🕑 Clock | Neumorphism style | Tutorial
+- [ ]  👤 Login | Neumorphism style | Tutorial
 - [ ]  🍅 Pomodoro | Analog Looking style
 - [ ]  🔢 Calculator | Analog Looking style
 
